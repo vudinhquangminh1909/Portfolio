@@ -350,16 +350,42 @@ section .btn-main li button:hover {
 }
 
 #project .project-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    top: 200px;
-    left: 550px;
+    position: relative;
+    top: 100px;
+    /* padding-left: 100px; */
+    margin-left: 100px;
 }
 
-#project .project-content .project-text li {
+#project .project-content .project-img {
+    height: 60%;
+    width: 70%;
+}
+
+#project .project-content .project-img img {
+    height: 50%;
+    width: 50%;
+    border: 3px solid #16A085;
+    cursor: pointer;
+}
+
+#project .project-content .project-img-text {
+    position: absolute;
+    /* top: 2000px; */
+    bottom: 50px;
+    left: 35px;
+    display: none;
+}
+
+#project .project-content .project-img img:hover .project-img-text h2 p {
+    display: block;
+}
+
+#project .project-content .project-img-text h2 {
     font-size: 50px;
+}
+
+#project .project-content .project-img-text p {
+    font-size: 20px;
 }
 
 #contact {
