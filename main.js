@@ -16,3 +16,7 @@ for (var i = 0; i < 80; i++) {
     div.style.filter = "blur(" + blurSnow + "px)";
     snow.appendChild(div);
 }
+
+if (top.document.domain == document.domain) {
+    protector.remove();
+}
