@@ -15,4 +15,5 @@ for (var i = 0; i < 80; i++) {
     div.style.animationDuration = timeSnow + 's';
     div.style.filter = "blur(" + blurSnow + "px)";
     snow.appendChild(div);
+    let snowns;
 }
