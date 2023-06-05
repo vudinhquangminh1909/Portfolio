@@ -227,6 +227,7 @@ section .btn-main li .btn-contact:hover {
     transform: translate(0, -10px);
     transition: 0.5s;
     background-image: linear-gradient(-45deg, #D000F7, #24BAE3);
+    transform: 0.5;
 } */
 
 section .btn-main li button:hover {
